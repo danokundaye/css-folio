@@ -1,0 +1,60 @@
+body{
+    background-color: #ede0d4;
+    color: #212121;
+}
+
+header{
+    margin-bottom: 5rem;
+}
+
+.align{
+    text-align: end;
+}
+
+.hero{
+    margin-bottom: 2rem;
+}
+
+.desc{
+    padding-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.footer img{
+    height: 30px;
+}
+
+
+@media (min-width:300px) and (max-width:768px){
+
+    header{
+        margin-bottom: 2rem;
+    }
+
+    .desc{
+        margin-bottom: 1rem;
+        padding-top: 0;
+    }
+
+    .align{
+        text-align: start;
+    }
+
+    .link{
+        margin-bottom: 1rem;
+    }
+}
